@@ -33,8 +33,6 @@ app.use(shopRoutes);
 
 app.use(errorController.get404);
 
-// const PASSWORD = process.env.PASSWORD;
-
 mongoose
   .connect(process.env.URL, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(result => {
