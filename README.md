@@ -13,9 +13,9 @@ The goal of the project is to develop a user-friendly web application that provi
 ## Languages and Tools
 The code is written in JavaScript and uses the following tools and libraries:
 
-#### • Node.js: a JavaScript runtime environment;
-#### • Express: a minimalist web framework for Node.js;
-#### • Mongoose: an ODM (Object-Document Mapper) for MongoDB;
-#### • MongoDB: a NoSQL database;
-#### • Body-parser: a middleware for parsing HTTP request bodies;
-#### • Dotenv: a package for loading environment variables from a .env file.
+* Node.js: a JavaScript runtime environment;
+* Express: a minimalist web framework for Node.js;
+* Mongoose: an ODM (Object-Document Mapper) for MongoDB;
+* MongoDB: a NoSQL database;
+* Body-parser: a middleware for parsing HTTP request bodies;
+* Dotenv: a package for loading environment variables from a .env file.
