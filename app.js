@@ -33,8 +33,11 @@ app.use(shopRoutes);
 
 app.use(errorController.get404);
 
+const MONGODB_URI = process.env.URL;
 mongoose
-  .connect(process.env.URL, { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect(
+    MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true }
+  )
   .then(result => {
     User.findOne().then(user => {
       if (!user) {
